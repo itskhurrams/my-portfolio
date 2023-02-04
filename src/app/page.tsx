@@ -1,7 +1,1 @@
-export default function Home() {
-  return (
-    <h1 className="text-3xl font-bold underline">
-      Khurram 
-    </h1>
-  )
-}
+export default function Home() {}
