@@ -1,3 +1,4 @@
+import About from './components/About';
 import Main from './components/Main';
 import Navbar from './components/Navbar';
 import './globals.css';
@@ -16,6 +17,7 @@ export default function RootLayout({
       <head />
       <Navbar />
       <Main />
+      <About />
       <body>{children}</body>
     </html>
   );
