@@ -1,6 +1,7 @@
 import About from './components/About';
 import Main from './components/Main';
 import Navbar from './components/Navbar';
+import Skills from './components/Skills';
 import './globals.css';
 
 export default function RootLayout({
@@ -18,6 +19,7 @@ export default function RootLayout({
       <Navbar />
       <Main />
       <About />
+      <Skills />
       <body>{children}</body>
     </html>
   );
